@@ -1,0 +1,32 @@
+{
+    "name": "binarygeotech/passport-booster",
+    "description": "Adds more functionality to Laravel Passport Package",
+    "license": "MIT",
+    "require": {
+        "laravel/passport": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BGS\\PassportBooster\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "George Okojie Davis",
+        "email": "binarygeotech@users.noreply.github.com"
+    }],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "8.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "BGS\\PassportBooster\\PassportBoosterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
