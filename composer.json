@@ -1,8 +1,9 @@
 {
     "name": "binarygeotech/passport-booster",
-    "description": "Adds more functionality to Laravel Passport Package",
+    "description": "Adds multiple authentication functionality to Laravel Passport",
     "license": "MIT",
     "require": {
+		"php": "^7.2",
         "laravel/passport": "^8.0"
     },
     "autoload": {
@@ -15,9 +16,6 @@
         "email": "binarygeotech@users.noreply.github.com"
     }],
     "extra": {
-        "branch-alias": {
-            "master": "1.0"
-        },
         "laravel": {
             "providers": [
                 "BGS\\PassportBooster\\PassportBoosterServiceProvider"
