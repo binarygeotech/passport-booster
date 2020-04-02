@@ -3,7 +3,7 @@
     "description": "Adds more functionality to Laravel Passport Package",
     "license": "MIT",
     "require": {
-        "laravel/passport": "^8.4"
+        "laravel/passport": "^8.0"
     },
     "autoload": {
         "psr-4": {
